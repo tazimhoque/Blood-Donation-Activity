@@ -1,0 +1,25 @@
+Export data in PHPMYADMIN
+
+1) Log in to the phpMyAdmin instance on the source server.
+2) Click the Export tab 
+3) From the database drop-down (left navigation), select the database.
+4) Choose between a Quick or a Custom export. The Quick method should work most of the time, though if you need to get more granular with your export options, click Custom If you choose Custom, you can configure the following:
+    a) Tables: Choose which tables to export.
+    b) Output: Choose the template, character set, and compression for the export.
+    c) Format: Choose to display comments, enclose the export in a transaction, disable foreign key checks, dump table (structure, data, or both).
+    d) Object creation options: Add statements.
+5) Data dump options: Use INSERT DELAYED or INSERT IGNORE statements, select the function to use when dumping data, select the syntax to use when inserting data, maximal length of created query.
+6) Select the format from the Format drop-down (select SQL).
+7) Click the Go button.
+8) Save the file (which, by default, should be named db.sql).
+Import data in PHPMYADMIN
+
+1) Log in to phpMyAdmin.
+2) Create an empty database from the Databases tab 
+3) Click the Import tab.
+4) Click the Browse button.
+5) Locate the file to be imported.
+6) Click Open or OK, depending on your browser.
+7) Select the proper collation from the drop-down.
+8) Select the format of the import file.
+9) Click Go.

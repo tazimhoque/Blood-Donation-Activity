@@ -1,0 +1,24 @@
+http://www.bdbloodinfo.com/index.php?option=com_guestbook&task=search
+http://www.blooddonorsbd.com/
+http://www.bloodbank.com.bd/index.php?module=search&process=view_result&group=1&location=14
+
+3679202458
+
+$mysql_host = "mysql16.000webhost.com";
+$mysql_database = "a8121047_bdms";
+$mysql_user = "a8121047_bdms";
+$mysql_password = "a8121047";
+
+http://www.kazirhut.com/threads/253/
+
+http://www.aabb.org/resources/donation/pages/bblocator.aspx
+http://www.redcrossblood.org/make-donation
+http://www.bharatbloodbank.com/
+http://www.blooddonorsindia.org/post_blood_request.php
+http://www.friends2support.org/inner/news/searchresult.aspx
+https://my.blood.co.uk/Account/Register
+https://my.blood.co.uk/Home
+http://www.redcrossblood.org/forms/host-blood-drive
+http://www.donateblood.com.au/who-can-give/am-i-eligible?s=10
+http://www.keralabloodbank.com/Index.aspx
+http://www.redcross.org/blood

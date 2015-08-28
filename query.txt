@@ -1,0 +1,27 @@
+SELECT donor.id, donor.contact
+FROM donor
+LEFT JOIN donorbusy ON donor.id = donorbusy.id
+WHERE donorbusy.id IS NULL 
+
+SELECT donorinfo.id, donorinfo.name, donorinfo.age, donorinfo.contact
+FROM donorinfo
+LEFT JOIN donorsession ON donorinfo.id = donorsession.id
+WHERE donorsession.id IS NULL
+
+SELECT donorinfo.id, donorinfo.name, donorinfo.age, donorinfo.contact
+FROM donorinfo
+LEFT JOIN donorsession ON donorinfo.id = donorsession.id
+WHERE donorsession.id IS NULL 
+AND donorinfo.blood =  'O+'
+AND donorinfo.division =  'BARISAL'
+AND donorinfo.district =  'BARGUNA'
+AND donorinfo.thana =  'AMTALI'
+
+SELECT donorinfo.id, donorinfo.name,donorinfo.age, donorinfo.contact
+FROM donorinfo
+LEFT JOIN donorsession ON donorinfo.id = donorsession.id
+WHERE donorsession.id IS NULL 
+and donorinfo.blood='$_POST[blood]' 
+and donorinfo.division='$_POST[division]' 
+and donorinfo.district='$_POST[divdistrict]' 
+and donorinfo.thana='$_POST[disthana]'"
